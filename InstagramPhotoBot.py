@@ -29,14 +29,14 @@ DE L'ELEMENT BUTTON ET DIV EN ANGLAIS SI LA CONNECTION ECHOUE DES LE DEBUT.
 
 
 # Decommenter les options ci-dessous si la connection instagram se passe bien.
-option = Options()
-#option.add_argument("start-maximized")
-#option.add_argument("--lang=fr-FR");
-#option.add_argument("--headless")
-#option.add_argument("--no-sandbox")
+options = Options()
+#options.add_argument("start-maximized")
+#options.add_argument("--lang=fr-FR");
+#options.add_argument("--headless")
+#options.add_argument("--no-sandbox")
 
 user_agent = "Mozilla/5.0 (Linux; U; Android 4.1.1; en-gb; Build/KLP) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
-option.add_argument(f"user-agent={user_agent}")
+options.add_argument(f"user-agent={user_agent}")
 
 # Version de Google Chrome utilisé pour ma part : Google Chrome 106.0.5249.119
 # Installer la bonne version sur la racine de ce répertoire la bonne version de votre chromedriver.
